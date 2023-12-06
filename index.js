@@ -1,7 +1,6 @@
 (function () {
 	document.addEventListener("DOMContentLoaded", function(event) {
 		var iframe = document.getElementById("GeistWidget");
-		console.log(iframe)
 		if(!iframe) {
 			console.error("No iframe found with the id 'GeistWidget'.")
 			return;
@@ -12,7 +11,6 @@
 		iframe.style["border"] = "none";
 		iframe.style["border-width"] = "0px";
 		iframe.allowtransparency = "true";
-		console.log(iframe.style)
 		var url = new URL(iframeSource);
 		var host = url.protocol + "//" + url.host;
 		window.addEventListener(
