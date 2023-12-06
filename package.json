@@ -1,6 +1,11 @@
 {
-  "name": "geist-widget",
-  "module": "index.js",
-  "type": "module",
-  "version": ""
+	"name": "geist-chat-widget",
+	"module": "index.js",
+	"version": "0.5.0",
+	"type": "module",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ilmari-h/geist_pkg"
+	}
 }
