@@ -1,11 +1,5 @@
 {
   "name": "geist-widget",
   "module": "index.js",
-  "type": "module",
-  "devDependencies": {
-    "bun-types": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  }
+  "type": "module"
 }
